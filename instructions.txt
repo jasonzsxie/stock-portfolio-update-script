@@ -1,0 +1,10 @@
+Export data from morningstar (MAKE SURE IN "MY VIEW" NOT TRACKING)
+Rename exported file "currentPortfolio" and move it into same folder as excelCalcs.py
+Open excelCalcs.py and modify line 29 based on how many pages are in the pdf
+Rename the downloaded pdf "data" and move into same folder as excelCalcs.py
+Execute excelCalcs.py
+Open updated_portfolio.xlsx and check to see if everything looks right
+
+If updated_portfolio.xlsx looks correct, open the IKBR Gateway application and login
+Open uploadOrder.py and go to line 94 and make sure the number after "127.0.0.1" is 7497for real trading, 4002 for paper trading
+Execute uploadOrder.py and go to IBKR website to check all the orders
